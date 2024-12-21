@@ -1,0 +1,43 @@
+#ourshop-btn {
+  color: white;
+  background-color: #3cbc1c;
+  clip-path: polygon(100% 0, 100% 70%, 90% 100%, 0 100%, 0 0);
+  transition: all 0.5s ease;
+}
+#ourshop-btn:hover {
+  color: #3cbc1c;
+  background-color: white;
+}
+
+#ourshop-card-bg {
+  background-color: #222222;
+}
+
+#ourshop_heart {
+  background-color: #3cbc1c;
+  border: 0;
+  color: red;
+}
+
+.slick-next {
+  margin-right: 15px;
+}
+
+.slick-prev {
+  margin-left: 15px;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+#shop-item-title {
+  color: white;
+  transition: all 300ms ease;
+}
+#shop-item-title:hover {
+  color: #3cbc1c;
+}
+
+#ourshop-heart {
+  border: 0;
+}

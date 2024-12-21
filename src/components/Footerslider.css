@@ -1,0 +1,27 @@
+@keyframes footerslide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+#footer-slider-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#footer-slider-container:hover #footer-logo-slider {
+    animation-play-state: paused;
+}
+
+#footer-logo-slider img {
+  height: 130px;
+  margin: 0 0px;
+}
+
+#footer-logo-slider {
+  animation: 15s footerslide infinite linear;
+  display: inline-block;
+}

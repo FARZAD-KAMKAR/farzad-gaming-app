@@ -1,0 +1,21 @@
+#about-banner-btn1 {
+    color: white;
+    background-color: #3cbc1c;
+    clip-path: polygon(100% 0, 100% 70%, 90% 100%, 0 100%, 0 0);
+    transition: all 0.5s ease;
+  }
+  #about-banner-btn1:hover {
+    color: #3cbc1c;
+    background-color: white;
+  }
+
+  #about-banner-btn2 {
+    color: #3cbc1c;
+    background-color: white;
+    clip-path: polygon(100% 0, 100% 70%, 90% 100%, 0 100%, 0 0);
+    transition: all 0.5s ease;
+  }
+  #about-banner-btn2:hover {
+    color: white;
+    background-color: #3cbc1c;
+  }

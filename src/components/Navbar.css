@@ -1,0 +1,67 @@
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+#nav-home {
+  background-color: #3cbc1c;
+  clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%, 0 35%);
+}
+
+#nav-items {
+  transition: all 0.5s ease;
+  background-color: rgb(45, 45, 45);
+}
+
+#nav-items:hover {
+  background-color: #3cbc1c;
+}
+
+#nav-drop-item {
+  color: white;
+  transition: all 0.5s ease;
+}
+
+#nav-drop-item:hover {
+  background-color: #3cbc1c;
+  color: white;
+}
+
+#nav-drop-menu {
+  background-color: #afb1b6;
+}
+
+#nav-icon {
+  transition: all 0.5s ease;
+  clip-path: polygon(65% 0, 100% 35%, 100% 100%, 0 100%, 0 0);
+  background-color: rgb(30, 30, 30);
+}
+
+#nav-icon:hover {
+  color: #3cbc1c;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: var(--bs-dropdown-link-active-color);
+  text-decoration: none;
+  background-color: #3cbc1c !important;
+}
+
+@media (max-width: 575.98px) {
+}
+
+@media (max-width: 767.98px) {
+  .nav-stick {
+    position: sticky;
+  }
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 1399.98px) {
+}
+

@@ -1,0 +1,25 @@
+.back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 35px;
+  height: 35px;
+  background-color: #3cbc1c;
+  color: white;
+
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-to-top.active {
+  display: flex;
+}
+.back-to-top.active:hover {
+  opacity: 0.8;
+}

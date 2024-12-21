@@ -1,0 +1,34 @@
+#inner-banner-span {
+  color: #3cbc1c;
+}
+
+#inner-banner-logo {
+  max-width: 100%;
+}
+
+#inner-banner-bg{
+  background-color: rgb(23, 23, 23);
+}
+
+@media (min-width: 576px) {#inner-banner {
+    background-color: black;
+  }
+}
+
+@media (min-width: 768px) {
+  #inner-banner {
+    background-image: url("/GamerX-Images/banner-bg.png");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (min-width: 992px) {
+  
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

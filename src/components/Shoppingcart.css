@@ -1,0 +1,24 @@
+#checkout-btn {
+  color: white;
+  background-color: #3cbc1c;
+  clip-path: polygon(100% 0, 100% 60%, 98% 100%, 0 100%, 0 0);
+  transition: all 0.5s ease;
+}
+
+#checkout-btn:hover {
+  color: #3cbc1c;
+  background-color: white;
+}
+
+.cart-green {
+  color: #3cbc1c;
+}
+
+#delete-product {
+  background-color: transparent;
+  color: #5dca42;
+  border: none;
+}
+#delete-product:hover {
+  color: #278d0e;
+}

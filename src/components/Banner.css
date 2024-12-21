@@ -1,0 +1,70 @@
+
+
+.navbar-banner {
+  background-image: url("/GamerX-Images/hero-banner.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#nav-banner {
+  position: absolute;
+  top: 30vh;
+  right: 0px;
+  bottom: 0px;
+  left: 0;
+
+}
+
+#banner-h4 {
+  color: rgb(60, 188, 28);
+}
+
+#banner-h1 {
+  font-size: 4vw;
+}
+
+#banner-btn {
+  color: white;
+  background-color: #3cbc1c;
+  clip-path: polygon(100% 0, 100% 70%, 90% 100%, 0 100%, 0 0);
+  transition: all 0.5s ease;
+}
+#banner-btn:hover {
+  color: #3cbc1c;
+  background-color: white;
+}
+
+#banner-btn2 {
+  color: #3cbc1c;
+  background-color: white;
+  clip-path: polygon(100% 0, 100% 70%, 90% 100%, 0 100%, 0 0);
+  transition: all 0.5s ease;
+}
+#banner-btn2:hover {
+  color: white;
+  background-color: #3cbc1c;
+}
+
+@media (min-width: 576px) {
+  #nav-container {
+    position: fixed;
+    background-color: #1b1c1e;
+    z-index: 10;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  #nav-container {
+    position: absolute;
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

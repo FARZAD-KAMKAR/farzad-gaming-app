@@ -1,0 +1,42 @@
+#tournament-card {
+  background-image: url("/GamerX-Images/t-3.png");
+}
+
+#tournament-btns {
+  text-wrap: nowrap;
+}
+
+#tournament-btns button {
+  border: 0;
+
+  transition: all 500ms ease;
+}
+#tournament-btns button:hover {
+  background-color: #3cbc1c;
+}
+
+#tour-btn {
+  background-color: rgb(45, 45, 45);
+}
+
+#banner-btn3 {
+  color: #3cbc1c;
+  background-color: white;
+  transition: all 500ms ease;
+}
+
+#banner-btn3:hover {
+  background-color: #3cbc1c;
+  color: white;
+}
+
+#load-more-btn{
+  color: #3cbc1c;
+  background-color: white;
+  transition: all 500ms ease;
+}
+
+#load-more-btn:hover{
+  background-color: #3cbc1c;
+  color: white;
+}

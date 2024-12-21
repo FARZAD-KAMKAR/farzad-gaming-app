@@ -1,0 +1,13 @@
+.vh-70 {
+  height: 70vh;
+}
+
+#topheader-btn {
+  color: white;
+  background-color: #1b1c1e;
+  clip-path: polygon(100% 0, 100% 70%, 90% 100%, 0 100%, 0 0);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: unset;
+}
